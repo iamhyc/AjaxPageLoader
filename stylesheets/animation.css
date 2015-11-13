@@ -1,0 +1,71 @@
+.slide-in-half {
+  -webkit-animation-name: slideinfromright-half;
+}
+.slide-out-half {
+  -webkit-animation-name: slideouttoleft-half;
+}
+.slide-reverse-out-half {
+  -webkit-animation-name: slideouttoright-half;
+}
+.slide-reverse-in-half {
+  -webkit-animation-name: slideinfromleft-half;
+}
+
+/* keyframes for slidein from sides */
+@-webkit-keyframes slideinfromright-half {
+    from { -webkit-transform: translate3d(100%,0,0); }
+    to { -webkit-transform: translate3d(0,0,0); }
+}
+
+@-webkit-keyframes slideinfromleft-half {
+    from { -webkit-transform: translate3d(-50%,0,0); }
+    to { -webkit-transform: translate3d(0,0,0); }
+}
+
+/* keyframes for slideout to sides */
+@-webkit-keyframes slideouttoleft-half {
+    from { -webkit-transform: translate3d(0,0,0); }
+    to { -webkit-transform: translate3d(-50%,0,0); }
+}
+
+@-webkit-keyframes slideouttoright-half {
+    from { -webkit-transform: translate3d(0,0,0); }
+    to { -webkit-transform: translate3d(50%,0,0); }
+}
+
+/*Copy from MobileBone.js
+  Thanks for this solution on CSS-Animation*/
+.slide-in {
+  -webkit-animation-name: slideinfromright;
+}
+.slide-out {
+  -webkit-animation-name: slideouttoleft;
+}
+.slide-reverse-out {
+  -webkit-animation-name: slideouttoright;
+}
+.slide-reverse-in {
+  -webkit-animation-name: slideinfromleft;
+}
+
+/* keyframes for slidein from sides */
+@-webkit-keyframes slideinfromright {
+    from { -webkit-transform: translate3d(100%,0,0); }
+    to { -webkit-transform: translate3d(0,0,0); }
+}
+
+@-webkit-keyframes slideinfromleft {
+    from { -webkit-transform: translate3d(-100%,0,0); }
+    to { -webkit-transform: translate3d(0,0,0); }
+}
+
+/* keyframes for slideout to sides */
+@-webkit-keyframes slideouttoleft {
+    from { -webkit-transform: translate3d(0,0,0); }
+    to { -webkit-transform: translate3d(-100%,0,0); }
+}
+
+@-webkit-keyframes slideouttoright {
+    from { -webkit-transform: translate3d(0,0,0); }
+    to { -webkit-transform: translate3d(100%,0,0); }
+}
