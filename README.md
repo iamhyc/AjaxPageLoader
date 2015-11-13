@@ -1,6 +1,6 @@
-###Intro
+![Demo](http://i12.tietuku.com/55a47833e94324cc.gif)
 
-	![Demo](http://i12.tietuku.com/55a47833e94324cc.gif)
+###Intro
 
 	jQury/Zepto dependent cross-platform webApp Library
 
