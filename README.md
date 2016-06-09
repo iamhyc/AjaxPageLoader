@@ -1,4 +1,4 @@
-![Demo](http://i12.tietuku.com/55a47833e94324cc.gif)
+Ajax Page Loader
 
 ###Intro
 
